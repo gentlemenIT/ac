@@ -44,7 +44,7 @@ void hieuUngSangNguoc(){
 }
 void hieuUngBatDen(){
 	
-	
+	//batden
 		HAL_GPIO_TogglePin(GPIOA,0xFFFF);
 		HAL_GPIO_TogglePin(GPIOB,0xFFFF);
 		HAL_GPIO_TogglePin(GPIOC,0xFFFF);
