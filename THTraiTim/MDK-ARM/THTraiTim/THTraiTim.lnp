@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"thtraitim\startup_stm32f401xe.o"
+"thtraitim\main.o"
+"thtraitim\stm32f4xx_it.o"
+"thtraitim\stm32f4xx_hal_msp.o"
+"thtraitim\stm32f4xx_hal_tim.o"
+"thtraitim\stm32f4xx_hal_tim_ex.o"
+"thtraitim\stm32f4xx_hal_rcc.o"
+"thtraitim\stm32f4xx_hal_rcc_ex.o"
+"thtraitim\stm32f4xx_hal_flash.o"
+"thtraitim\stm32f4xx_hal_flash_ex.o"
+"thtraitim\stm32f4xx_hal_flash_ramfunc.o"
+"thtraitim\stm32f4xx_hal_gpio.o"
+"thtraitim\stm32f4xx_hal_dma_ex.o"
+"thtraitim\stm32f4xx_hal_dma.o"
+"thtraitim\stm32f4xx_hal_pwr.o"
+"thtraitim\stm32f4xx_hal_pwr_ex.o"
+"thtraitim\stm32f4xx_hal_cortex.o"
+"thtraitim\stm32f4xx_hal.o"
+"thtraitim\stm32f4xx_hal_exti.o"
+"thtraitim\system_stm32f4xx.o"
+--strict --scatter "THTraiTim\THTraiTim.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "THTraiTim.map" -o THTraiTim\THTraiTim.axf
